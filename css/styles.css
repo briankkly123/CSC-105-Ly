@@ -1,0 +1,135 @@
+ul#horizontal li {
+    display: inline;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+nav {
+    text-align: center;
+    border: 5px solid;
+    font-size: 25px;
+   
+    
+    position: fixed;
+    z-index: 10;
+    
+    width: 80%;
+    background-color: #333;
+    top: 0;
+    
+    
+   
+}
+
+.profile {
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 5px 10px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+p::first-letter {
+    font-size: 130%;
+}   
+
+.text-align {
+    text-align: center;
+}
+
+.font2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Assignment 14 CSS works */
+form#userinput {
+    text-align: center;
+    border-style: dashed;
+    border-width: 5px;
+    display: block;
+    margin: auto;
+    font-family: cursive;
+    width: 50%;
+    margin-top: 100px;
+}
+
+
+#username {
+
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.input:focus {
+    background-color: lightblue;
+}
+#textarea {
+    margin: 10px;
+    border-radius: 10px;
+}
+#email {
+    margin: 10px;
+    border-radius: 10px;
+}
+footer#socialmedia {
+    text-align: center;
+  
+    
+}
+
+#socialmedia {
+    width: 200px;
+    height: 200px;
+    
+}
+.headers {
+    margin-top: 100px;
+}
+
+ .article {
+
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+}
+
+.container {
+    margin-top: 100px;
+    width: 960px;
+    
+   
+    
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    display: inline;
+    float: left;
+    margin: 10px;
+    width: 420px;
+    
+    
+}
+img {
+    height: 100px;
+    width: 300px;
+}
+
+#profile {
+    height: 300px;
+    width: 300px;
+}
+@media only screen and (max-width: 758px) {
+    .box1, .box2, .box3, .box4, .box5, .box6{
+        display: inline;
+        float: left;
+        margin: 10px;
+        width: 200px;
+    }
+    .container {
+        margin-top: 100px;
+        width: 500px;
+    }
+}
