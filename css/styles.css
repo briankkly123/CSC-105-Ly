@@ -3,6 +3,11 @@ ul#horizontal li {
     
 }
 
+body {
+    background-color: #00ffab;
+}
+
+
 a:hover {
     color: red;
 }
@@ -11,13 +16,14 @@ nav {
     text-align: center;
     border: 5px solid;
     font-size: 25px;
+    font-family: fantasy;
    
     
     position: fixed;
     z-index: 10;
     
     width: 100%;
-    background-color: #333;
+    background-color: #eaff7b;
     top: 0;
     
     
@@ -83,7 +89,8 @@ footer#socialmedia {
 }
 
 footer img {
-    height: 500px;
+    height: 100px;
+    width: 100px;
 }
     
 }
